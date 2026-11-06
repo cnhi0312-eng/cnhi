@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nói không với bạo lực học đường</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #fffaf0;
+            color: #26334a;
+            line-height: 1.6;
+        }
+
+        header {
+            text-align: center;
+            padding: 50px 20px;
+            background: linear-gradient(135deg, #fff0e9, #e9f4ff);
+        }
+
+        header h1 {
+            color: #d66e76;
+            font-size: 38px;
+        }
+
+        main {
+            max-width: 1000px;
+            margin: auto;
+            padding: 25px;
+        }
+
+        .picture {
+            background: white;
+            text-align: center;
+            padding: 30px;
+            border-radius: 20px;
+            font-size: 75px;
+        }
+
+        .cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 20px;
+            margin-top: 30px;
+        }
+
+        .card {
+            background: white;
+            padding: 22px;
+            border-radius: 18px;
+        }
+
+        .card h2 {
+            color: #d66e76;
+        }
+
+        .message {
+            margin-top: 30px;
+            padding: 30px;
+            background: #26334a;
+            color: white;
+            text-align: center;
+            border-radius: 20px;
+        }
+
+        button {
+            background: #ffd66b;
+            border: none;
+            padding: 14px 25px;
+            border-radius: 30px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>NÓI KHÔNG VỚI BẠO LỰC HỌC ĐƯỜNG</h1>
+    <p>Đừng để bạo lực học đường làm phai màu tuổi trẻ!</p>
+    <p>Yêu thương – Tôn trọng – Đoàn kết</p>
+</header>
+
+<main>
+
+    <section class="picture">
+        🏫 🌈 🤝 💛
+        <h2>MỘT TRƯỜNG HỌC HẠNH PHÚC</h2>
+        <p>Không ai phải đối mặt với bạo lực một mình!</p>
+    </section>
+
+    <section class="cards">
+
+        <div class="card">
+            <h2>🗣️ Bạo lực học đường là gì?</h2>
+            <p>
+                Là những hành vi gây tổn thương cho học sinh
+                về thể chất hoặc tinh thần như đánh nhau,
+                xúc phạm, chế giễu, cô lập và bắt nạt trên mạng.
+            </p>
+        </div>
+
+        <div class="card">
+            <h2>💔 Hậu quả</h2>
+            <p>
+                Gây tổn thương tinh thần, khiến học sinh
+                mất tự tin, lo lắng, ảnh hưởng đến học tập
+                và môi trường giáo dục.
+            </p>
+        </div>
+
+        <div class="card">
+            <h2>💛 Giải pháp</h2>
+            <p>
+                Tôn trọng bạn bè, không cổ vũ bạo lực,
+                biết lắng nghe, giúp đỡ người bị bắt nạt
+                và thông báo cho giáo viên khi cần thiết.
+            </p>
+        </div>
+
+    </section>
+
+    <section class="message">
+        <h2>HÃY CHUNG TAY ĐẨY LÙI BẠO LỰC HỌC ĐƯỜNG!</h2>
+
+        <p>
+            Mỗi học sinh hãy là một người bạn tốt,
+            cùng xây dựng môi trường học tập an toàn,
+            thân thiện và tràn đầy yêu thương.
+        </p>
+
+        <button onclick="camKet()">TÔI CHỌN TỬ TẾ</button>
+
+        <h3 id="ketqua"></h3>
+    </section>
+
+</main>
+
+<footer>
+    <p>LAN TỎA YÊU THƯƠNG – XÂY DỰNG TRƯỜNG HỌC HẠNH PHÚC</p>
+</footer>
+
+<script>
+    function camKet() {
+        document.getElementById("ketqua").innerHTML =
+        "💛 Tôi cam kết nói không với bạo lực học đường!";
+    }
+</script>
+
+</body>
+</html>
